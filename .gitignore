@@ -1,0 +1,5 @@
+pakcage-lock.json
+node_modules/
+.idea/
+.vscode/
+dist/
