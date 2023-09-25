@@ -146,6 +146,12 @@ $primary: #ff3f40;
             border-radius: 8px;
             border: none;
             padding: 35px;
+
+            @include media-breakpoint-down(sm) {
+                width: 350px;
+                padding: 20px;
+                height: 60px;
+            }
         }
 
         &__buttton {
@@ -158,7 +164,11 @@ $primary: #ff3f40;
 .get-in-touch {
     form {
         input {
-            width: 340px;
+            width: 300px;
+
+            @include media-breakpoint-down(xxl) {
+                width: 100%;
+            }
         }
     }
     &-form__input {
@@ -172,9 +182,17 @@ $primary: #ff3f40;
         background-color: #2d2d2d;
         padding: 174px 75px;
         color: #ffffff;
-        left: calc(100% - 370px);
+        right: 0;
         p {
             color: #bfbfbf;
+        }
+
+        @include media-breakpoint-down(xxl) {
+            position: static !important;
+        }
+
+        @include media-breakpoint-down(xl) {
+            padding: 20px;
         }
     }
 }
