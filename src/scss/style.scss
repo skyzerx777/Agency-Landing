@@ -154,3 +154,52 @@ $primary: #ff3f40;
         }
     }
 }
+
+.get-in-touch {
+    form {
+        input {
+            width: 340px;
+        }
+    }
+    &-form__input {
+        background-color: #e5e5e5;
+        padding: 25px 50px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .contact-info {
+        background-color: #2d2d2d;
+        padding: 174px 75px;
+        color: #ffffff;
+        left: calc(100% - 370px);
+        p {
+            color: #bfbfbf;
+        }
+    }
+}
+
+.footer {
+    background-color: #2d2d2d;
+    color: #bfbfbf;
+
+    .icon {
+        width: 33px;
+        height: 33px;
+        display: inline-block;
+        margin-right: 10px;
+
+        &_twitter {
+            background-image: url(../assets/icon_twitter.png);
+        }
+        &_linkedin {
+            background-image: url(../assets/icon_linkedin.png);
+        }
+        &_googleplus {
+            background-image: url(../assets/icon_googleplus.png);
+        }
+        &_facebook {
+            background-image: url(../assets/icon_facebook.png);
+        }
+    }
+}
