@@ -129,3 +129,28 @@ $primary: #ff3f40;
 .social-link {
     color: #1a1a1a;
 }
+
+.subscribe {
+    background-color: #f5f0dd;
+    padding: 100px 0;
+
+    &__text,
+    .section__header {
+        color: #ffffff;
+    }
+
+    &-form {
+        &__input {
+            height: 80px;
+            width: 520px;
+            border-radius: 8px;
+            border: none;
+            padding: 35px;
+        }
+
+        &__buttton {
+            height: 80px;
+            line-height: 80px;
+        }
+    }
+}
